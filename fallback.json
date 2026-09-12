@@ -1,0 +1,104 @@
+{
+  "knee_chennai": {
+    "doctors": [
+      { "id": "doc1", "name": "Dr. Vijay C. Bose", "specialty": "Senior Joint Reconstruction Director", "hospital": "Apollo Hospitals, Greams Rd", "rating": "4.9 ★ (2,800+ cases)", "fee": 1500, "procedure": 340000, "slot": "Mon, 14 Sep 2026 • 11:30 AM" },
+      { "id": "doc2", "name": "Dr. A. B. Govindaraj", "specialty": "Chief Orthopedic Surgeon", "hospital": "MGM Healthcare, Nelson Manickam Rd", "rating": "4.8 ★ (1,950+ cases)", "fee": 1200, "procedure": 310000, "slot": "Tue, 15 Sep 2026 • 02:00 PM" },
+      { "id": "doc3", "name": "Dr. S. Rajasekaran", "specialty": "Head of Orthopedics & Trauma", "hospital": "MIOT International, Manapakkam", "rating": "4.9 ★ (3,200+ cases)", "fee": 1800, "procedure": 365000, "slot": "Thu, 17 Sep 2026 • 10:00 AM" }
+    ],
+    "lodgings": [
+      { "id": "h1", "name": "The Residency Towers", "proximity": "750m from Apollo", "amenity": "Wheelchair Ramps • Ground Floor Lift • Medical Bed Support", "ratePerNight": 4200, "totalStay": 21000, "nights": 5 },
+      { "id": "h2", "name": "Clarion Hotel President", "proximity": "1.4km from Hospital", "amenity": "Sanitized Post-Op Wing • Pure Veg Diet Service", "ratePerNight": 2800, "totalStay": 14000, "nights": 5 },
+      { "id": "h3", "name": "Taj Connemara Heritage", "proximity": "1.8km from Facility", "amenity": "Luxury Recovery Suite • 24/7 Dedicated Nurse Desk", "ratePerNight": 7500, "totalStay": 37500, "nights": 5 }
+    ],
+    "transit": [
+      { "id": "t1", "mode": "Flight", "title": "IndiGo 6E-284 (BHO → MAA)", "duration": "3h 50m (via BOM)", "tag": "Wheelchair Assisted Transfer", "cost": 6800 },
+      { "id": "t2", "mode": "Express Rail", "title": "12622 Tamil Nadu Express (BPL → MAS)", "duration": "21h 10m (2AC Sleeper)", "tag": "Confirmed Lower Berth", "cost": 2450 },
+      { "id": "t3", "mode": "Superfast Rail", "title": "12616 Grand Trunk Exp (BPL → MAS)", "duration": "22h 30m (3AC Economy)", "tag": "Direct Medical Priority Quota", "cost": 1750 }
+    ]
+  },
+  "cardiac_bengaluru": {
+    "doctors": [
+      { "id": "doc1", "name": "Dr. Devi Prasad Shetty", "specialty": "Chairman & Chief Cardiac Surgeon", "hospital": "Narayana Institute of Cardiac Sciences", "rating": "4.9 ★ (5,200+ cases)", "fee": 2000, "procedure": 420000, "slot": "Mon, 14 Sep 2026 • 10:00 AM" },
+      { "id": "doc2", "name": "Dr. Girish Navasundi", "specialty": "Sr. Interventional Cardiologist", "hospital": "Apollo Hospitals, Bannerghatta", "rating": "4.8 ★ (2,100+ cases)", "fee": 1500, "procedure": 380000, "slot": "Wed, 16 Sep 2026 • 03:00 PM" },
+      { "id": "doc3", "name": "Dr. Ramakanta Panda", "specialty": "Chief Consultant Heart Surgeon", "hospital": "Manipal Hospital, HAL Old Airport Rd", "rating": "4.9 ★ (4,100+ cases)", "fee": 2500, "procedure": 450000, "slot": "Thu, 17 Sep 2026 • 11:30 AM" }
+    ],
+    "lodgings": [
+      { "id": "h1", "name": "Keys Select by Lemon Tree", "proximity": "650m from Narayana Health", "amenity": "Sterilized Suites • 24/7 Car Shuttle", "ratePerNight": 3500, "totalStay": 24500, "nights": 7 },
+      { "id": "h2", "name": "Grand Mercure Koramangala", "proximity": "2.1km from Facility", "amenity": "Quiet Recovery Wing • Tailored Cardiac Nutrition", "ratePerNight": 5500, "totalStay": 38500, "nights": 7 },
+      { "id": "h3", "name": "St. Mark's Recovery Residence", "proximity": "1.2km from Hospital", "amenity": "Patient Support Team • Low-Floor Elevator", "ratePerNight": 2600, "totalStay": 18200, "nights": 7 }
+    ],
+    "transit": [
+      { "id": "t1", "mode": "Flight", "title": "IndiGo 6E-6523 Direct (BHO → BLR)", "duration": "2h 05m (Non-stop)", "tag": "Ground Attendant Staging", "cost": 5400 },
+      { "id": "t2", "mode": "Superfast Rail", "title": "22692 Bengaluru Rajdhani (BPL → SBC)", "duration": "21h 05m (1AC Coupe)", "tag": "Private AC Cabin Reserved", "cost": 3850 },
+      { "id": "t3", "mode": "Express Rail", "title": "12628 Karnataka Express (BPL → SBC)", "duration": "23h 40m (2AC Sleeper)", "tag": "Lower Berth Confirmed", "cost": 2550 }
+    ]
+  },
+  "oncology_mumbai": {
+    "doctors": [
+      { "id": "doc1", "name": "Dr. Sultan Pradhan", "specialty": "Chief Surgical Oncologist", "hospital": "Breach Candy / Tata Memorial", "rating": "4.9 ★ (4,500+ cases)", "fee": 2500, "procedure": 520000, "slot": "Wed, 16 Sep 2026 • 02:00 PM" },
+      { "id": "doc2", "name": "Dr. Suresh Advani", "specialty": "Medical Oncologist & Bone Marrow Pioneer", "hospital": "Jaslok Hospital, Pedder Rd", "rating": "4.9 ★ (6,000+ cases)", "fee": 3000, "procedure": 480000, "slot": "Fri, 18 Sep 2026 • 11:30 AM" },
+      { "id": "doc3", "name": "Dr. Boman Dhabhar", "specialty": "Senior Medical Oncologist", "hospital": "Kokilaben Dhirubhai Ambani Hospital", "rating": "4.8 ★ (2,400+ cases)", "fee": 2200, "procedure": 460000, "slot": "Tue, 15 Sep 2026 • 04:00 PM" }
+    ],
+    "lodgings": [
+      { "id": "h1", "name": "The Shalimar Hotel Kemps Corner", "proximity": "950m from Breach Candy", "amenity": "Silent Wing • Pure Vegetarian Kitchen • Ramp Access", "ratePerNight": 6000, "totalStay": 42000, "nights": 7 },
+      { "id": "h2", "name": "ITC Grand Central Parel", "proximity": "1.3km from Tata Memorial", "amenity": "Air-Filtered Suites • 24/7 Concierge Transit", "ratePerNight": 8500, "totalStay": 59500, "nights": 7 },
+      { "id": "h3", "name": "West End Medical Residency", "proximity": "800m from Jaslok", "amenity": "Sanitized Service Apartments • Kitchenette", "ratePerNight": 3200, "totalStay": 22400, "nights": 7 }
+    ],
+    "transit": [
+      { "id": "t1", "mode": "Flight", "title": "Air India AI-634 (BHO → BOM)", "duration": "1h 25m (Non-stop)", "tag": "Direct Non-stop Medical Transit", "cost": 4600 },
+      { "id": "t2", "mode": "Semi-High Speed", "title": "20172 Vande Bharat (RKMP → CSMT)", "duration": "9h 15m (Exec Chair)", "tag": "Ergonomic Recline & Meals", "cost": 3400 },
+      { "id": "t3", "mode": "Express Rail", "title": "12533 Pushpak Express (BPL → CSMT)", "duration": "13h 20m (2AC Sleeper)", "tag": "Comfortable Overnight Run", "cost": 1950 }
+    ]
+  },
+  "cataract_delhi": {
+    "doctors": [
+      { "id": "doc1", "name": "Dr. Mahipal Singh Sachdev", "specialty": "Chairman & Cornea Specialist", "hospital": "Centre for Sight, Safdarjung Enclave", "rating": "4.9 ★ (8,000+ cases)", "fee": 1200, "procedure": 95000, "slot": "Mon, 14 Sep 2026 • 09:30 AM" },
+      { "id": "doc2", "name": "Dr. Suraj Munjal", "specialty": "Chief Refractive & Cornea Surgeon", "hospital": "Spectra Eye Hospital, Greater Kailash", "rating": "4.8 ★ (3,500+ cases)", "fee": 1000, "procedure": 85000, "slot": "Wed, 16 Sep 2026 • 12:00 PM" },
+      { "id": "doc3", "name": "Dr. Sanjay Dhawan", "specialty": "Director Ophthalmology", "hospital": "Max Super Speciality Hospital, Saket", "rating": "4.8 ★ (4,200+ cases)", "fee": 1500, "procedure": 110000, "slot": "Thu, 17 Sep 2026 • 10:30 AM" }
+    ],
+    "lodgings": [
+      { "id": "h1", "name": "Aloft New Delhi Aerocity", "proximity": "2.1km from Enclave", "amenity": "Low-Glare Smart Lighting • Wheelchair Ramp Access", "ratePerNight": 5200, "totalStay": 15600, "nights": 3 },
+      { "id": "h2", "name": "Boutique Saket Residences", "proximity": "900m from Max Saket", "amenity": "Patient Support Attendant • Sanitized Suites", "ratePerNight": 2600, "totalStay": 7800, "nights": 3 },
+      { "id": "h3", "name": "The Grand Vasant Kunj", "proximity": "1.7km from Hospital", "amenity": "Luxury Garden Wing • Dedicated Chauffeur Desk", "ratePerNight": 6800, "totalStay": 20400, "nights": 3 }
+    ],
+    "transit": [
+      { "id": "t1", "mode": "Semi-High Speed", "title": "20171 Vande Bharat (RKMP → NZM)", "duration": "7h 35m (Exec Chair)", "tag": "Same-Day High-Speed Rail", "cost": 2800 },
+      { "id": "t2", "mode": "Flight", "title": "IndiGo 6E-2051 Direct (BHO → DEL)", "duration": "1h 20m (Non-stop)", "tag": "Quickest Transit Window", "cost": 3900 },
+      { "id": "t3", "mode": "Express Rail", "title": "12001 Bhopal Shatabdi (RKMP → NDLS)", "duration": "8h 25m (AC Chair Car)", "tag": "Catering & Assistance Included", "cost": 2150 }
+    ]
+  },
+  "neuro_hyderabad": {
+    "doctors": [
+      { "id": "doc1", "name": "Dr. Alok Ranjan", "specialty": "Senior Neurosurgeon & Spine Lead", "hospital": "Apollo Hospitals, Jubilee Hills", "rating": "4.9 ★ (3,800+ cases)", "fee": 2000, "procedure": 480000, "slot": "Wed, 16 Sep 2026 • 11:00 AM" },
+      { "id": "doc2", "name": "Dr. Anandh Balasubramaniam", "specialty": "Director - Minimally Invasive Neurosurgery", "hospital": "Yashoda Hospitals, Somajiguda", "rating": "4.8 ★ (2,600+ cases)", "fee": 1600, "procedure": 430000, "slot": "Thu, 17 Sep 2026 • 02:30 PM" },
+      { "id": "doc3", "name": "Dr. Manas Panigrahi", "specialty": "Head of Department - Neurosurgery", "hospital": "KIMS Hospitals, Secunderabad", "rating": "4.9 ★ (4,100+ cases)", "fee": 1800, "procedure": 460000, "slot": "Mon, 14 Sep 2026 • 09:00 AM" }
+    ],
+    "lodgings": [
+      { "id": "h1", "name": "Radisson Blu Plaza Banjara Hills", "proximity": "1.2km from Apollo", "amenity": "Wheelchair Elevator • Sterilized Linen • 24/7 Car", "ratePerNight": 4800, "totalStay": 28800, "nights": 6 },
+      { "id": "h2", "name": "The Park Somajiguda", "proximity": "750m from Yashoda", "amenity": "Low-Impact Floor Plan • Patient Diet Menu", "ratePerNight": 3400, "totalStay": 20400, "nights": 6 },
+      { "id": "h3", "name": "Mercure KCP Banjara Hills", "proximity": "1.5km from Facility", "amenity": "Quiet Wing • Rapid Hospital Transit", "ratePerNight": 3900, "totalStay": 23400, "nights": 6 }
+    ],
+    "transit": [
+      { "id": "t1", "mode": "Flight", "title": "IndiGo 6E-7117 Direct (BHO → HYD)", "duration": "1h 25m (Non-stop)", "tag": "Ground Attendant Support", "cost": 4200 },
+      { "id": "t2", "mode": "Express Rail", "title": "12724 Telangana Express (BPL → SC)", "duration": "14h 10m (2AC Sleeper)", "tag": "Lower Berth Guaranteed", "cost": 2100 },
+      { "id": "t3", "mode": "Superfast Rail", "title": "12722 Dakshin Express (BPL → SC)", "duration": "15h 25m (3AC Economy)", "tag": "Medical Priority Slot", "cost": 1550 }
+    ]
+  },
+  "transplant_kolkata": {
+    "doctors": [
+      { "id": "doc1", "name": "Dr. Mahesh Kumar Goenka", "specialty": "Director of Hepato-Biliary Sciences", "hospital": "Apollo Gleneagles Hospital, EM Bypass", "rating": "4.9 ★ (3,100+ cases)", "fee": 2200, "procedure": 780000, "slot": "Mon, 14 Sep 2026 • 10:30 AM" },
+      { "id": "doc2", "name": "Dr. Sanjay De Bakshi", "specialty": "Senior Consultant GI & Transplant Surgeon", "hospital": "Fortis Hospital, Anandapur", "rating": "4.8 ★ (1,800+ cases)", "fee": 1800, "procedure": 720000, "slot": "Wed, 16 Sep 2026 • 03:00 PM" },
+      { "id": "doc3", "name": "Dr. Supriya Sharma", "specialty": "Head of Organ Recovery & Surgery", "hospital": "Medica Superspecialty Hospital", "rating": "4.8 ★ (2,200+ cases)", "fee": 1700, "procedure": 750000, "slot": "Fri, 18 Sep 2026 • 11:00 AM" }
+    ],
+    "lodgings": [
+      { "id": "h1", "name": "ITC Sonar Luxury Recovery Wing", "proximity": "1.1km from Apollo", "amenity": "High HEPA Filter Rooms • Attendant Accommodation", "ratePerNight": 7500, "totalStay": 75000, "nights": 10 },
+      { "id": "h2", "name": "Hyatt Regency Salt Lake", "proximity": "1.6km from Facility", "amenity": "Elevator Ramp • Ground Care Diet Preparation", "ratePerNight": 5200, "totalStay": 52000, "nights": 10 },
+      { "id": "h3", "name": "EM Bypass Serviced Suites", "proximity": "600m from Hospital", "amenity": "Full Kitchenette • Daily Disinfection Routine", "ratePerNight": 2800, "totalStay": 28000, "nights": 10 }
+    ],
+    "transit": [
+      { "id": "t1", "mode": "Flight", "title": "IndiGo 6E-241 (BHO → CCU)", "duration": "4h 10m (via DEL)", "tag": "Wheelchair Transfer Managed", "cost": 6500 },
+      { "id": "t2", "mode": "Express Rail", "title": "12322 Kolkata Mail (BPL → HWH)", "duration": "22h 15m (2AC Sleeper)", "tag": "Reserved Lower Berths", "cost": 2600 },
+      { "id": "t3", "mode": "Superfast Rail", "title": "22829 Shalimar Express (BPL → SHM)", "duration": "24h 00m (3AC Economy)", "tag": "Confirmed AC Coach", "cost": 1850 }
+    ]
+  }
+}

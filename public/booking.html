@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apollo / Secure Patient Intake</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 p-8 font-sans">
+  <div class="max-w-2xl mx-auto bg-white p-8 rounded-xl shadow-lg border border-slate-200">
+    <div class="flex items-center space-x-3 border-b pb-4 mb-6">
+      <div class="w-10 h-10 bg-blue-600 text-white rounded-lg flex items-center justify-center font-bold text-xl">+</div>
+      <div>
+        <h1 class="text-xl font-bold text-slate-800">Central Medical Intake Portal</h1>
+        <p class="text-xs text-slate-500">Secure Automated Booking System</p>
+      </div>
+    </div>
+    
+    <form id="intakeForm" class="space-y-5">
+      <div>
+        <label class="block text-xs font-bold text-slate-600 mb-1">Patient Name</label>
+        <input type="text" id="patientName" class="w-full border border-slate-300 p-2.5 rounded-lg text-sm focus:ring-2 focus:ring-blue-500" readonly>
+      </div>
+      <div>
+        <label class="block text-xs font-bold text-slate-600 mb-1">Diagnosed Condition</label>
+        <input type="text" id="medicalCondition" class="w-full border border-slate-300 p-2.5 rounded-lg text-sm bg-slate-50" readonly>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs font-bold text-slate-600 mb-1">Attending Specialist</label>
+          <input type="text" id="selectedDoctor" class="w-full border border-slate-300 p-2.5 rounded-lg text-sm bg-slate-50" readonly>
+        </div>
+        <div>
+          <label class="block text-xs font-bold text-slate-600 mb-1">Facility</label>
+          <input type="text" id="selectedHospital" class="w-full border border-slate-300 p-2.5 rounded-lg text-sm bg-slate-50" readonly>
+        </div>
+      </div>
+      <div class="bg-blue-50 p-4 rounded-lg border border-blue-100 mt-4">
+        <label class="block text-xs font-bold text-blue-800 mb-1">Total Authorization Amount</label>
+        <input type="text" id="amount" class="w-full border-none bg-transparent text-2xl font-black text-blue-900 focus:ring-0" readonly>
+      </div>
+      <button type="button" id="submitBooking" class="w-full bg-slate-300 text-slate-500 font-bold py-3 rounded-lg mt-4 cursor-not-allowed transition duration-300">
+        Awaiting Financial Authorization...
+      </button>
+    </form>
+  </div>
+
+  <script>
+    document.getElementById('submitBooking').addEventListener('click', function() {
+      this.classList.replace('bg-slate-300', 'bg-green-600');
+      this.classList.replace('text-slate-500', 'text-white');
+      this.textContent = '✓ BOOKING CONFIRMED & STAGED';
+    });
+  </script>
+</body>
+</html>
